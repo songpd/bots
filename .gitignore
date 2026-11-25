@@ -1,0 +1,43 @@
+# 비밀 정보
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# 의존성
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 빌드 결과물
+dist/
+build/
+*.egg-info/
+
+# 로그 / 임시 파일
+*.log
+logs/
+tmp/
+*.tmp
+
+# 테스트 / 커버리지
+coverage/
+.pytest_cache/
+.coverage
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 에디터
+.vscode/
+.idea/
+
+# Claude / OMC 작업 상태
+.omc/
+.claude/settings.local.json
