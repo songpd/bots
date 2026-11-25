@@ -7,7 +7,6 @@
 credentials.json
 
 # 의존성
-node_modules/
 .venv/
 venv/
 __pycache__/
